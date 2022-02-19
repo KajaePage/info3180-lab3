@@ -1,3 +1,46 @@
 body {
     padding-top: 5rem;
 }
+
+.w-container{
+    height: 650px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+
+span{
+    color: red;
+}
+
+label{
+    font-weight: bold;
+}
+
+.btn-primary{
+    width: 33%;
+}
+
+.form-group{
+    padding-bottom: 16px;
+}
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:black;
+    height: 5px;
+  }
+ .success{
+    color: #270;
+    background-color: #DFF2BF;
+    width: 96%;
+ }
+ .error{
+    color: #D8000C;
+    background-color: #FFBABA;
+    width: 96%;
+ }
